@@ -1,11 +1,6 @@
-import streamlit as st
-import pickle
-import numpy as np
-import pickle
-import warnings
-import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.svm import SVC
-from sklearn import metrics
-from sklearn.metrics import classification_report
+scikit-learn==0.22.1
+matplotlib==3.2.2
+numpy==1.18.1
+pandas==1.0.5
+streamlit==0.62.0
+Werkzeug==1.0.1
